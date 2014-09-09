@@ -1,0 +1,26 @@
+RewriteEngine on
+
+RewriteRule ^([^/.]+)/([^/.]+)/$ program.php?day=$1&id=$2
+
+RewriteRule ^test/([^/.]+)/([^/.]+)/$ program-test.php?day=$1&id=$2
+RewriteRule ^test/([^/.]+)/episodes/([^/.]+)/$ program-test.php?day=$1&id=$2&type=episodes
+
+RewriteRule ^([^/.]+)/([^/.]+)$ program.php?day=$1&id=$2
+
+RewriteRule ^([^/.]+)/blogs/([^/.]+)/$ program.php?day=$1&id=$2&type=blogs
+RewriteRule ^([^/.]+)/blogs/([^/.]+)$ program.php?day=$1&id=$2&type=blogs
+
+RewriteRule ^([^/.]+)/blogs/([^/.]+)/page-([^/.]+)/$ program.php?day=$1&id=$2&type=blogs&p=$3
+RewriteRule ^([^/.]+)/blogs/([^/.]+)/page-([^/.]+)$ program.php?day=$1&id=$2&type=blogs&p=$3
+
+RewriteRule ^([^/.]+)/playlists/([^/.]+)/$ program.php?day=$1&id=$2&type=playlists
+RewriteRule ^([^/.]+)/playlists/([^/.]+)$ program.php?day=$1&id=$2&type=playlists
+
+RewriteRule ^([^/.]+)/social/([^/.]+)/$ program.php?day=$1&id=$2&type=social
+RewriteRule ^([^/.]+)/social/([^/.]+)$ program.php?day=$1&id=$2&type=social
+
+RewriteRule ^([^/.]+)/prizes/([^/.]+)/$ program.php?day=$1&id=$2&type=prizes
+RewriteRule ^([^/.]+)/prizes/([^/.]+)$ program.php?day=$1&id=$2&type=prizes
+
+RewriteRule ^([^/.]+)/playlists/([^/.]+)/page-([^/.]+)/$ program.php?day=$1&id=$2&type=playlists&p=$3
+RewriteRule ^([^/.]+)/playlists/([^/.]+)/page-([^/.]+)$ program.php?day=$1&id=$2&type=playlists&p=$3

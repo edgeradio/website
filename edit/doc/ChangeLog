@@ -1,0 +1,662 @@
+[19/2/2004] release 5.4 (official)
+- finalizations, TODO update, etc.
+-
+[8/2/2004]
+- swedish language file update (thanks to stefanl)
+- spanish (AR) language file update (thanks to mariano)
+- fixed #0000174: "Striping tags" should be "Stripping trags"
+
+[21/1/2004]
+- swedish language file added into distribution
+  (thanks to Björn Hammarbäck <bjorn@hammarback.se>)
+
+[20/1/2004]
+- operation handling simplyfication (related to #112)
+- do not show navigation buttons when doing "listall"
+  (thanks to hbernard for the patch)
+- fixed #0000131; this means, that ['width'] field attribute was
+  completelly removed and documentation was updated as well
+- added basis of field's ['input'] option; BC with ['options']
+  will be preserved for some time, at least in 5.4 release
+
+[12/1/2004]
+- fixed #0000033: Fast moving between list pages
+  (thanks to hbernard & others for the patches)
+  note, that with this change three new keys "First",
+  "Last" and "Go to" were added into language files
+
+[2/1/2004]
+- fixed #0000154: CGI values shouldn't be slash-stripped
+  (thanks to hbernard for the pointing on this issue)
+- fixed #0000125: cancel buttons should be reset buttons
+  (again thanks to hbernard for the patch)
+- fixed #0000114: Pre/after Edit/View trigger
+  (and finally thanks to hbernard for the idea & patch)
+- fixed #0000112: Pressing Enter to perform a Query
+
+[30/12/2003]
+- fixed #0000156: Filter enabled even if 'F" not specified
+- fixed names of SQL field aliases used internally by phpMyEdit
+- fixed #0000153: Field size cannot be specified
+  (thanks to Feike for idea and patch)
+- function create_javascripts() renamed to form_begin()
+  and new function form_end() was created
+- added phpMyEdit-calpopup extension into repository
+  (thanks to Adam Hammond <php@pixolet.co.uk> from London)
+
+[22/12/2003]
+- fixed #0000034: enum fields with " ' " come out wrong
+
+[18/12/2003]
+- fixed #0000150: Trimlen breaks URL linkages (thanks to ajh)
+- fixed #0000147: $opts[page_name] can't be declared correctly
+  (thanks to Feike for the patch)
+
+[15/12/2003]
+- removed all eval() calls from the code; simple and secure
+  variable substitution function is used instead
+
+[11/12/2003]
+- date mask options are not applied also when timestamp is 0
+- implemented ['escape'] field option to control HTML
+  characters esaping; when not present, default value is "true"
+- implemented ['display']['form'] global option to control whether
+  HTML <FORM> tag should be written to output by phpMyEdit; if not
+  present, default value is considered as "true"
+
+[8/12/2003]
+- write SQL expressions via ['sqlw'] option implemented
+- basis of virtual properties
+- options ['datemask'] and ['strftimemask'] are not applied
+  to empty strings or NULLs
+
+[22/11/2003]
+- fixed #0000143: Field name not displayed (thanks to d-rap)
+
+[12/11/2003]
+- applied #0000135: patch to add dropdown and hiding fields
+  (this affects phpMyEdit-report extension; thanks to "iplayfast")
+- finished CSS classing policy in phpMyEdit-report extension
+
+[24/10/2003]
+- Turkish language file added
+  (thanks to Nuri Akman <nuri.akman@hazine.gov.tr>)
+
+[15/8/2003]
+- implemented general control of TAB feature
+  via $opts['display']['tabs'] variable
+- read ['sql'] option now works in all modes
+
+[29/7/2003]
+- fixed #0000119: readonly time/date field with datemask display
+
+[25/7/2003]
+- fixed #0000118: $key value is not save in Changelog
+- fixed several weird 'H' (hidden) flag behaviours
+- added chinese (Singapore) language file
+
+[30/6/2003]
+- added new chinese traditional language file
+  (thanks to Pao-Hsi Huang <doggy@miniasp.com>)
+- polish language file update
+
+[21/6/2003]
+- initial commit regarding to TABs support in phpMyEdit
+  (this is based on the request #0000063: Notebook display)
+
+[30/5/2003]
+- field is no longer forced to readonly when ['sql'] option is used
+- phpMyEdit-messages extension modifications:
+	- added CSS classes policy
+	- added upper article pulldown box on add/change/view pages
+	- some methods reorganized
+
+[14/5/2003]
+- fixed #0000062: special mysql type handling should be documented
+  (generated code now contains comments near read-only fields)
+
+[12/5/2003]
+- substitued "Table0" with "PMEtable0" in setup script
+- fixed #0000085, documentation problem regarding extensions usage
+- added htmlArea extension usage notes into documentation
+- reviewed and documented field's ['sql'] option
+
+[9/5/2003]
+- extension phpMyEdit-htmlarea.class.php added into repository
+  (thanks to Ezudin <kezudin@bih.net.ba> for this contribution)
+
+[2/5/2003]
+- column option ['colattrs'] implemented (based on the original
+  cell ['align'] patch by Raffaele Spangaro" <spangarox@yahoo.it>)
+
+[1/5/2003]
+- removed unneccessary string concatenations from echo() calls
+- various fixes in phpMyEdit-report extension:
+	- made extension work with register_globals turned off
+	- added labels to language files
+	- use button for "Select fields"
+	- use table name in cookie names
+	  (this will save preferences for various report pages)
+	- optional and warning-free cookie memory implemented
+	- code cleanups
+
+[27/4/2003]
+- improved validity of HTML output
+- yet another fix for already "fixed" #0000047 and all things around
+  (this need a lot of testing)
+
+[20/4/2003]
+- every occurence of "choose" changed to "select" in setup script
+- properly classified Query button ("pme-filter" -> "pme-query")
+
+[12/4/2003]
+- fixed #76 again, patch was not correct, thought idea was good
+- italian language file update
+  (thanks to  Keatch <spangarox@yahoo.it>)
+- try to fix issue related to striping tags and escaping values
+  in html selections; this will be surely improved in future
+
+[10/4/2003]
+- fixed #0000076: mask attribute does not work properly
+  (thanks to Mariano <mvassallo at ciudad dot com dot ar>)
+- fixed #0000074: "alt"-tag should be a "title"-tag 
+  (thanks to Gerd)
+
+[8/4/2003] release 5.3 (official)
+- finalizations, TODO update, etc.
+
+[7/4/2003]
+- error reporting handling added into core class constructor
+- fixed CSS postfix appending in display_change_field()
+- improved setup script to ask user for additional option
+  (page header, HTML header, HTML footer, CSS basic sheet, etc.)
+
+[5/4/2003]
+- $opts['fdd']['col_name']['css']['postfix'] implementation
+- other tiny improvements related to CSS handling
+- fixed #0000064: no javascript validation during 'Copy' Operation
+  (thanks to Hugues Bernard <hbernard@gynov.org>)
+- fixed #0000067: when field type is "auto_increment" mark field
+  'required' => false and read-only
+
+[2/4/2003]
+- improved array syntax of generated PHP code
+- removed 'nowrap' field option from generated code
+- CSS stylesheet typo fixed
+- fixed #0000047: values2 not interpreted in list table when SET field
+
+[31/3/2003]
+- ability to have selects, multiple selects and textareas readonly
+
+[30/3/2003]
+- ['URLprefix'] and ['URLpostfix'] are added only if missing
+- added URL displaying on delete/view pages
+- standardize do_*_record() function to have $newvals and $oldvals
+  available in trigger files
+- implemented ['datemask'] and ['strftimemask'] to format date and time
+  fields (currently done only for fields displaying; entering using these
+  masks is still missing)
+- $changed array of changed keys is now also available in all triggers
+- ['URLprefix'] and ['URLpostfix'] may be arrays
+- fixed bug in htmlDisplay() when $disallow_empty and !$escape are set
+- method encode() was removed
+
+[29/3/2003]
+- field type parameter is no longer needed and used; all occurences were
+  removed from core class and setup script as well
+- default hostname "localhost" present in setup script
+- a lot of redunacy and unneccessary code was removed
+- class constructor cleanup
+- SQL table aliases changed from "TableN" to "phpMyEdit_table_alias_N" or
+  something similar
+- patch from Shaun Johnston extended by adding divs[-1] to implement prefix
+  and divs[$n + 1] to implement postfix
+- CSS improvements in setup file
+
+
+[26/3/2003]
+- several improvements in setup scripts:
+  - output source code contains basic CSS
+  - by default is page title empty and not written
+  - added info about usage of MySQL reserved word as primary key name
+  - etc.
+- message cell is not printed if message is empty
+
+[19/3/2003]
+- applied improvement #0000052 - default value for drop down boxes
+  in add record page (thanks to hereq)
+- tags are stripped in HTML selects values
+- Clear button does not hide the filter now
+- fixed filtering regarding to "0", "", "*" and similar strings
+- several improvements regarding to "qfn" stuff
+- code cleanup: short functions were moved to the top and some
+  unneccessary commets were remvoed or moved to the TODO file
+- danish language file was added
+  (thanks to Henrik Nielsen <kontakt@innovapage.dk>)
+
+[18/3/2003]
+- in do_add_record() changed $vals_ori to $values and $vals to $vals_quoted,
+  $values are now also available also in "before" trigger
+- read only and hidden fields are automaticaly counted as not required;
+  this prevents JavaScript checks for these fields
+- fixed sequences in CSS
+- better signature for sent e-mail messages
+
+[17/3/2003]
+- moving on CSS classes policy matter
+- various optimalizations to avoid string concatenations
+
+[6/3/2003]
+- several tiny improvements in setup script; many code cleanups was also
+  done there
+
+[18/2/2003]
+- starting with CSS classes policy implementation (all items are currently
+  marked with "TODO-class")
+
+[15/2/2003]
+- a lot of unnecessary code removal (gather_*(), plain2web(), web2plain())
+- fixed multiple selects usage on add and edit pages
+
+[14/2/2003]
+- timer.class file removed, class integrated into phpMyEdit core file
+- fixed searching/filtering in text inputs of table lookup fields 
+
+[12/2/2003]
+- fixed #0000023: Change/Save doesn't work with Mozilla
+
+[27/1/2003]
+- improved javascript empty fields protection; string is now trimed before
+  check if it is empty
+- fixed set datatype storage into changelog during update action
+  (actually Array was written instead val1,val2,...)
+
+[12/1/2003]
+- multiple select can be forced now by ['select'] = 'M'
+- added JavaScript validation support for select and multiple select fields
+
+[23/12/2002]
+- added portuguese (brazilian) language file
+  (thanks to Roberto Cohen <roberto.cohen@fireman.com.br>)
+- fixed SQL query error check in list_table()
+- improved error() method
+
+[22/12/2002]
+- fixed security bug - updating/adding/deleting record without particular
+  flag present in $opts['option'] option
+
+[18/12/2002]
+- fixed hidden field behaviour on add record page
+
+[14/12/2002]
+- improvemets of e-mail notifying and changelog saving
+- all do_*_record() methods rewritten
+- fixed hidden field behaviour (but it needs to be consulted with PME users)
+- removed possibility of sorting according to hidden or password field
+- get_server_var() method added
+
+[13/12/2002]
+- error message printing when language files could not be located and included
+- persistent (session) CGI variables implemented via $opts['cgi']['persist']
+- fixed password field behaviour
+- fixed readonly field behaviour
+- rewritten logging changes into changelog table
+- rewritten e-mail notification of changes
+- some method simplification, huge code cleanup
+
+[12/12/2002]
+- fixed bug with multiple rows printing when using ['column'] without
+  ['description']; old behaviour can be reached using the same column for
+  both options (in example ['column'] = ['description'] = 'column_name')
+
+[10/12/2002] release 5.2 (official)
+- section "Documentation" of README file was updated
+
+[2/12/2002]
+- reimplemented input field sizes in filter
+- fixed bug, when sorting according to non-displayed field ($this->fqn($field)
+  is used instead of "qf$field", since second one does not exist)
+- fixed usage of real/double key types
+- generated script will have all special page elements turned on by default
+
+[24/11/2002]
+- added russian language file (thanks to Lev Zabudkin <zabudkin@mail.ru>)
+- fixed superfluous cells printing in add record action
+- fixed empty field bug for read only fields on add page
+- rewritten size/maxlength input field issues
+
+[22/11/2002]
+- fixed bad column saves for particular field definitions and "Apply" action
+- added database connection closing at the end of phpMyEdit execution
+- explicit MySQL query performing using stored database handle
+
+[18/11/2002]
+- fixed undesirable <tr> printing in display_add_record() method
+- fixed bad hidden input tags position on diplay record pages; they were moved
+  before table declaration, so they are not inside anymore
+
+[14/11/2002]
+- add "Apply" functionality into change record page
+- removed get_http_*() methods; only get_cgi_var() is used for safe CGI
+  variables retrieval
+- informational message is also printed in display record page if neccessary
+- options "default_sort_columns" removed and its functionality assigned to
+  "sort_field" option; due to complete rewrite of sorting system, other
+  features are:
+    - "sort_field" initialization by column name or field number
+    - "sort_field" initialization by one element or array of elements
+    - cumulative sorting (more sorting column selection on the fly)
+- fixed nasty bug: after "More" or "Apply" operation was wrong columns and/or
+  column names displayed
+
+[12/11/2002]
+- HTML tags and attributes generation improvements such as quoting 'align'
+  attribute, removing 'nowrap', etc. (thanks to <Alan@ridersite.org>)
+- fixed 'sort_field' behaviour; now works fine
+
+[1/11/2002]
+- fixed undefined index warings in $HTTP_GET_VARS[] array in setup file
+- improved connect() method and others slight improvements
+- created phpMyEdit class error handler via method error(); it could be used
+  by extensions as well
+- fixed bug with recreate_fdd() call in class constructor
+- fixed JavaScript empty form fields validation; JavaScript is now generated
+  only if field with ['required'] turned on exists
+- fixed bug using htmlDisplay() when displaying empty data for input/textarea
+  fields
+- added extensions/phpMyEdit-report.class.php extension
+
+[30/10/2002]
+- methods simplyfication and split (connect(), recreate_displayed(),
+  recreate_fdd() was added); it should bring better and easier phpMyEdit
+  extensions implementation
+- added extensions/phpMyEdit-slide.class.php extension
+
+[29/10/2002]
+- fixed language inclusion stuff
+- added default true parameter for disallowing empty fields into htmlDisplay()
+  method
+- fixed all occurences of possible empty fields
+- changed invalid HTML attribute `maxwidth' to `maxlength' in `input' tag
+  (fixes #629942)
+
+[23/10/2002]
+- set default sorting when using ['divs'] in ['values']['description'] and
+  ['orderby'] is not specified
+- intelligent usage of Search/Hide/Query labels; if there is space, long
+  labels are used, short ones otherwise
+- changed default language from English-US to classical English
+- added Clear label with appropriate filter clear action
+- forced graphics/text links and radio buttons to get minimum screen size
+- fixed bug, when doing add/copy/change/delete action under filter enabled;
+  not proper fields were displayed due to quering according filter flag, not
+  according performed action flag 
+- ['strip_tags'] option for field implemented
+
+[20/10/2002]
+- fixed flag collision between copy opration and password field
+- fixed bug with preserving descending sorting during record display
+
+[19/10/2002]
+- URL option implemented, now works for images location
+- fixed division by zero; listing all is now also in inc equal to 0
+- improved ['values2'] support
+- added support for ['cgi']['append'] and ['cgi']['overwrite'] CGI variables
+- added support for ['execute']
+
+[18/10/2002]
+- fixed bug with filter displaying, moving across various pages and performing
+  actions with filter enabled
+- added feature to have ability to define special options connected with
+  particular phpMyEdit actions for items in $fdd array
+
+[17/10/2002] release 5.1 (official)
+- added support for ['values2'] which can be used in addition to table lookup
+  done by ['values']['table'] and similar options
+- fixed save/change/delete bug, which updates bad fields not according to
+  performed action
+- added copyright headers into PHP files
+- file doc/COPYING file added into distribution
+
+[12/10/2002]
+- clearification of URL stuff; better examples in generated files and also
+  ['URLprefix'] and ['URLpostfix'] options was added; first one gives old 3.5
+  ['URL'] bahaviour
+- fixed selection and multiple selection filter behaviour
+- some internal methods were modified, fe. fqn(), web2plain() and others
+
+[1/10/2002]
+- added polish language file (thanks to Piotr Walesiuk <piotrw@uwb.edu.pl>)
+
+[30/9/2002] release 5.0 (official)
+- improved setup script with appropriate changes in class file; more clear
+  comments, cleaner code, grouped options and added missing functionality (see
+  `display' key), etc.
+- huge code and HTML output cosmetic changes
+- fixed colspan errors
+
+[29/9/2002]
+- removed `actionStyle' configuration parameter, `navigation' was added to get
+  more flexibility of navigation style configuration
+
+[24/9/2002]
+- doc/ changes: README heavily updated, AUTHORS added
+- Makefile added into CVS; use "make dist" for phpMyEdit distribution creation
+
+[23/8/2002]
+- applied patch from Bill Sparkman <sparky@epiphanydev.com> containing
+  possibility to have navigation buttons also on top of page
+- fixed buggy more operation functionality
+- fixed set datatype behaviour during add operation
+- removed empty initialization item in combo boxes during add operation
+- new HTML (table) code for navigation buttons and output message printing
+- following new language keys are now accepted: of, Search, Hide, Go; default
+  values are initialized if they are not set
+- Diplay to View language key changes
+
+[9/8/2002]
+- applied patch from Shaun Johnston <shaun@compverse.com.au> to have ability
+  to select more than one description column from another table; backward
+  compatibility with 'description' field of 'values' array is preserved
+- corrected display vs. view operation confusion; only view now exists,
+  display was removed; use 'V' flag for this
+- array_merge() calls completelly removed due to its strange behaviour;
+  see also #575090 and similar
+- fixed phpMyEditSetup.php file to work with register globals turned off
+  (see #556553); also messages were updated and code was a little bit
+  cleanified
+
+[8/8/2002]
+- fixed set SQL data type manipulation (works fine, yeah!)
+- fixed proper column displaying in table list after record update (works?)
+- fixed copy/change bug when lookup for data in other table is done
+- unneccessary variables removed from display_change_field()
+- pretty HTML output is no longer supported
+
+[7/8/2002]
+- new transparent PNG icons added into distribution
+- fixed bug with action links
+- fixed set handling (see #531091)
+- fixed register_globals turned off behaviour; should works fine
+- fixed URL/eval() parse error bug
+- fixed bug in htmlSelect(); closing </option> tag was added
+- changed HTTP-ACCEPT-LANGUAGE to HTTP_ACCEPT_LANGUAGE
+- german language file according to #524371 changed
+- PGPMyEdit to phpMyedit change
+
+[29/7/2002]
+- directory structure and files reorganization file names, variables and PHP
+  tags changed to match convention
+- changed all occurences of htmlentities() to htmlspecialchars()
+- view functionality letter changed from E to V
+- some HTML fixes and code cleanups
+
+[28/7/2002]
+- OK guys, after few months of project inactivity, we are going to move this
+  thing on; my name is Ondrej Jombik, I'm from Slovakia and I believe in
+  productive cooperation
+
++-+-+-+-+ Changes by Jim Kraai follows
+07-Feb-02
+	Added support for $fdd['field']['values']['db']
+	Replace call to mysql_fetch_assoc with mysql_fetch_array in PME Setup
+05-Feb-02
+	Tore explicit date support from PME out of frustration--will tackle this later
+	timestamps are still read-only
+04-Feb-02
+	Fixed logtable schema in PHPMyEditSetup.php
+30-Jan-02
+	Changed filters to use strings instead of arrays
+29-Jan-02
+	Added support for $fdd[col][values]['filters'] when selecting values from another table
+	Added support for 'graphic' links
+28-Jan-02
+	Added ability to turn off displaying current sort and/or filters in generated include file
+	Added nowrap to action (first) column if 'link' style is used
+25-Jan-02
+	Added support for MySQL enum type
+	Added support for MySQL set type
+	Fixed bug with sort field number zero
+	Fixed bug in PME Setup w/ wrong name to support language labels in generated .inc file
+	Fixed bug in PME Setup where generated file was including non-existent header/footer files
+	Added support in PME Setup for default values MySQL derived from MySQL table description
+	Fixed date edit form display bug
+	Added another action--Display Detail.  In $opts['options'], it's an 'E' and is on by default
+24-Jan-02 - 4.001b1 Many Changes
+	Added support for a calculated column requires:
+		$fdd['other']['name']='Col Header';
+		$fdd['other']['expression']='onHand-ordered';
+		$fdd['other']['sort']='T:!';
+		$fdd['other']['select']='T';
+		$fdd['other']['type']='int';
+		'other' can be anything, but multiple ones in a single file need to be unique
+		'expression' can be any valid MySQL expression
+		'type' should reflect the results of the expression, e.g. 'int' or 'string'
+		all other options work as with other, normal columns
+		this kind of column is always read-only
+    Most of these changes were motivated by using PME in two 
+    medium sized projects.
+    Setup renamed to PHPMyEditSetup.php
+    Setup Added functionality:
+    Ascertains field type from mysql database
+    Setup displays and attempts to write two files.
+    These files are written to a configurable directory.
+    PHPMyEdit.inc Added functionality:
+    Date and Number filter fields now have in/equality operators
+    Major date handling changes:
+        Dates now handled with multiple input fields
+        Specifiable date ranges (within year ranges only) see 'daterange' option
+        
+    Can set listing limit to -1 (all rows on page)
+    Can have multiple initial sort fields which are retained as secondary/tertiary/quaternary/etc.
+    	sort fields during normal usage
+    'format' option is deprecated in favor of two new options:
+        'datemask' is a PHP date style date format that supports a few of the date macros
+        'mask' is processed by printf() before displaying
+    'daterange' accepts a range of years
+    'maxwidth' is a new option that limits the width of filter fields
+    'URL' options have been expanded, maybe too far for security comfort
+    'options' have been expanded to recognize additional params
+        R -- read-only
+        P -- password field
+        H -- hidden field
+    Not for the faint of heart, trigger support has been added, see discussion in home page docs.
+	Initial filters capability has been added, also not for the faint of
+	  heart.  Flexibility was chosen at the cost of ease of use
+    Default field values are now supported
+    Updates to a table can now be logged to another table
+	Call to $MyForm -> execute() moved to end of the PME class initializer
+	  because it always gets executed then anyway
+	Previously unidentified bug fixed where if the coder had referred to the
+	  same ['values']['table'] for two different fields would pull (and update)
+	  based on the last use of the referenced table.  Changed all implicit joins
+	  to LEFT OUTER JOINs.
+    Bug fix where addslashes() wasn't complimented by strip
+    Bug fix where filtering didn't work where there were slashes in the data
+    Started moving towards single function which generates SELECT statements
++-+-+-+-+
+06-May-01 - 3.5 multilingual version - you can now change all the displayed text 
+    to your local language. 
+    Limited ability to customise the format used for displaying and 
+    entering dates (d/m/y, m/d/y, d.m.y etc). However, dates in filters
+    must still be entered in MySQL format.
+    Fixed some bugs introduced when support of column names containing
+    special characters or reserved words was added (e.g. using 'Date' as
+    a column name). Note - database and table names may not contain
+    special characters or reserved words.
+    Changed handling of 'Cancel' button - thanks Bret (mogul@gealtinous.com)
+
+23-Apr-01 - 3.4 added 'More' button to 'Add' screen to make it easier to enter
+    multiple records.
+
+23-Apr-01 - 3.3 fixed bug which prevented 'Next' button working when filter had
+    been activated (oops).
+
+18-Apr-01 - 3.2 added ['select'] = 'M' to allow Multiple values to be selected in
+    a drop-down list in a filter. The number of values displayed is set
+    by $multiple (default = 4).
+
+    NOTE - $multiple has been added to the call to PHPMyEdit, so this
+    release is not compatible with calling programs produced by earlier
+    releases of SETUP.PHP (sorry).
+
+20-Mar-01 - 3.1 added ['options'] to provide full control over which fields appear
+    on the List, Add, Change, and Delete screens. This replaces 'listview',
+    which no longer works with this release - i.e. 
+    ['options']='ACD' has the same effect as ['listview']=true.
+
+27-Feb-01 - 3.0 PHPMyEdit converted to PHP classes by Pau Aliagas (pau@newtral.com).
+    This new version will not work with calling programs created by older
+    versions of SETUP.PHP - you will need to run SETUP.PHP again (sorry).
+    Added $options='I'  - to display records from the table with the
+    Initial sort suppressed (useful if you have a very large table with 
+    no indexes).
++-+-+-+-+
+14-Feb-01 - 2.3 added ['description'] option to ['values']. This considerably
+    enhances PHPMyEdit's ability to handle multiple tables in a
+    seamless manner. It also involved a lot of new code, so 2.3
+    should be considered as more risky than the well-tested 2.2.
+
+10-Feb-01 - 2.2 generate javascript to ensure user enters values for fields
+    marked as 'required'. SETUP.PHP now marks 'not_null' fields as 
+    'required' by default. By Yusuf Kursat Tuncel (kursat@ttnet.net.tr).
+    PHPMyEdit.PHP now no longer requires 'sort_open_tag' to be set to
+    false.
+
+    NOTE - to use the filter functionality, you must now have 'F' in
+    $OPTIONS in your calling program. This is set automatically by
+    SETUP.PHP in version 2.2, BUT IS NOT BACKWARDS COMPATIBLE (sorry).
+
+02-Feb-01 - 2.1 suppress display of selected fields from the list display but
+    still allow editing with "listview" property. By Linas Jakucionis
+    (linas@rl.lt).
+12-Jan-01 - 2.0 added filter functionality based on an idea from Chris.
++-+-+-+-+
+02-Jan-00 - 1.9 fixed minor bug in display of blank fields as textareas
+21-Dec-00 - 1.8 clicking a second time on a column heading causes the sort order
+    to be reversed - thanks to Paolo Petrini (paolo.petrini@gib.it).
+    Support multi-line textareas - thanks (again) to Chris Navas.
+19-Dec-00 - 1.7 removed restriction that key field must be numeric with $key_type
+    parameter. Also fixed that not all browsers let you get away with 
+    <input disabled...>.
+17-Dec-00 - 1.6 split out php and php3 versions. 
+    SETUP.PHP now prompts for the field to be used as a key. 
+    PHPMyEdit can now populate drop down lists from a field in a table.
+11-Dec-00 - 1.5 included a local version of an in_array function so PHP Version 3 users
+    can use the program (thanks to ivo@ibuildings.nl for the code).
+10-Dec-00 - 1.4 Added support for textareas to SETUP.PHP and PHPMyEdit. Merci beaucoup
+    à Chris Navas (mailto:chris@arbo.com) pour ce petit truc.
+08-Dec-00 - 1.3 SETUP is now a bit prettier to look at. PHPMyEdit.PHP now allows
+    you to store HTML etc inside a table (previously it stripped out anything
+    that looked like code). Note that it displays HTML as HTML - e.g. if
+    you store <b>this</b> in a table, that's how it will appear on the
+    screen - not 'this' in bold type.
+03-Dec-00 - 1.2 rather more elegant solution to SETUP.PHP problem already fixed 
+    temporarily in 1.1.
+    Added warning to SETUP.PHP if PHP is not configured correctly for XML.
+    Added support for "URL" parameter to SETP.PHP and PHPMyEdit.PHP, 
+    to allow 'clickable' links to email, web, ftp, etc. addresses.
+    Improved handling of magic_quotes within PHPMyEdit.PHP.
+29-Nov-00 - 1.1 temporary fix to glaring bug which prevented SETUP.PHP working
+    with protected MySQL databases
+

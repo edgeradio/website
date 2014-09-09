@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* IE6 and earlier only Stylesheets */
+
+#cube {
+	behavior: url(css/iepngfix.htc);
+}
+
+#base, #base_images {
+	display:none;
+}

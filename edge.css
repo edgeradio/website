@@ -1,0 +1,142 @@
+A:hover {color: #FF0000; text-decoration: inherit}
+A:visited {color: #808080;}
+A:active {color: #808080;}
+A:link {color: #CC0000; text-decoration:inherit}
+
+
+		body {
+		background-color: #CC0000;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+
+	td, body, select, textarea, input {
+	font-family: verdana;
+	font-size: 8pt;
+	}
+	p {
+		font-family: verdana;
+		font-size: 8pt;
+		margin: 7;
+	}
+	
+	td.row1 {
+	background-color: #EEEEEE;
+	background-repeat: repeat;
+	font-family:Arial;
+	font-size:12px;
+	}
+	
+	td.row2 {
+	background-color: #CCCCCC;
+	background-repeat: repeat;
+	font-family:Arial;
+	font-size:12px;
+	}
+
+
+td.commentsbox {
+	background-color: #FAFAFA;
+}
+
+td.content {
+	background-image: url('http://www.edgeradio.org.au/images/bg.gif');
+	background-repeat: repeat;
+	font-family:Arial;
+	font-size: 12px;
+}
+.menuText A:active{
+	font-family:Arial;
+	color: #ffffff;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:16px;
+}
+
+.menuText A:link {
+	font-family:Arial;
+	color: #ffffff;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:16px;
+}
+
+.menuText {
+	font-family:Arial;
+	color: #ffffff;
+	font-weight:bold;
+	text-decoration:none;
+
+}
+.menuText A:hover {
+	font-family:Arial;
+	color: #ffffff;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:16px;
+}
+.menuText A:visited {
+	font-family:Arial;
+	color: #ffffff;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:16px;
+}
+
+.menuBox {
+	border-style:solid;
+	border-color: #FFFFFF;	
+	border-width: 1px;
+}
+
+.redbold:visited {
+	color: #CC0000;
+}
+
+
+.redbold {
+	font-family: Arial;
+	font-weight: bold;
+	size:8;
+	color:#CC0000;
+}
+
+.blackbold {
+	font-family: Arial;
+	font-weight: bold;
+	size:8;
+	color:#000000;
+}
+
+.tip {font:10px/12px
+Arial,Helvetica,sans-serif; border:solid 1px
+#666666; width:100px; padding:1px;
+position:absolute; z-index:1000;
+visibility:hidden; color:#333333; top:20px;
+left:90px; background-color:#fafafa;
+layer-background-color:#fafafa;}
+
+.header {
+	font-weight: bold;
+	font-size: 110%;
+	text-align: left;
+	padding: 2 2 2 2;
+	background-color: #e3e3e3;
+}
+
+.shading {
+	background-color: #F4F4F4;  
+}
+
+td.value {
+	font-family:Arial;
+	font-size: 12px;
+}
+
+.title {
+  font-size : 16pt;
+  font-weight: bold;
+  text-align: center;
+}

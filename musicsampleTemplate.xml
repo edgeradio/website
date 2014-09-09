@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+
+<coffeecupjukebox version="4.3">
+
+  <jukebox
+   x="0"
+   y="0"
+   w="275"
+   h="278"
+   playonstartup="t"
+   loop="f"
+   shuffle="f"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="musicsampleTemplate_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+  <rewindbutton
+   x="23"
+   y="67"
+   w="24"
+   h="17"
+   toggle="f"
+   btnupimg="musicsampleTemplate_files/previous.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="70"
+   y="67"
+   w="24"
+   h="17"
+   toggle="f"
+   btnupimg="musicsampleTemplate_files/next.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="51"
+   y="67"
+   w="15"
+   h="17"
+   toggle="t"
+   btnupimg="musicsampleTemplate_files/play.jpg"
+   btndownimg="musicsampleTemplate_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="111"
+   y="68"
+   w="35"
+   h="14"
+   toggle="t"
+   btnupimg="musicsampleTemplate_files/shuffle_on.jpg"
+   btndownimg="musicsampleTemplate_files/shuffle_off.jpg"
+   action="shuf"
+   visible="t"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="119"
+   y="46"
+   w="92"
+   h="13"
+   visible="t"
+  ></volume>
+
+  <progress
+   x="15"
+   y="98"
+   w="220"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="6"
+   y="118"
+   w="264"
+   h="152"
+   visible="t"
+  >
+  <node label="">
+    <node name="Decoder Ring - Beat The Twilight" file="musicsampleTemplate_files/Decoder Ring - Beat The Twilight(2).mp3" artist="" label="Decoder Ring - Beat The Twilight"/>
+    <node name="Diafrix - Let's Go" file="musicsampleTemplate_files/Diafrix - Let's Go(2).mp3" artist="" label="Diafrix - Let's Go"/>
+    <node name="Fever Ray - I'm Not Done" file="musicsampleTemplate_files/Fever Ray - I'm Not Done(2).mp3" artist="" label="Fever Ray - I'm Not Done"/>
+    <node name="Red Riders - You've Got A Lot Of Nerve" file="musicsampleTemplate_files/Red Riders - You've Got A Lot Of Nerve(2).mp3" artist="" label="Red Riders - You've Got A Lot Of Nerve"/>
+    <node name="Sonic Youth - Sacred Trickster(2)" file="musicsampleTemplate_files/Sonic Youth - Sacred Trickster(2).mp3" artist="" label="Sonic Youth - Sacred Trickster(2)"/>
+    <node name="Bone Rattlers - 13 Nights" file="musicsampleTemplate_files/Bone Rattlers - 13 Nights.mp3" artist="" label="Bone Rattlers - 13 Nights"/>
+    <node name="Charles Du Cane - The Beggars' Union" file="musicsampleTemplate_files/Charles Du Cane - The Beggars' Union.mp3" artist="" label="Charles Du Cane - The Beggars' Union"/>
+    <node name="Death Mattel - Q &amp; A" file="musicsampleTemplate_files/Death Mattel - Q &amp; A.mp3" artist="" label="Death Mattel - Q &amp; A"/>
+    <node name="Ivy St. - Drunk On Blood" file="musicsampleTemplate_files/Ivy St. - Drunk On Blood.mp3" artist="" label="Ivy St. - Drunk On Blood"/>
+    <node name="SS Pecker - Hurricane" file="musicsampleTemplate_files/SS Pecker - Hurricane.mp3" artist="" label="SS Pecker - Hurricane"/>
+    <node name="Tinpan Orange - Lovely" file="musicsampleTemplate_files/Tinpan Orange - Lovely.mp3" artist="" label="Tinpan Orange - Lovely"/>
+  </node>
+
+  </tree>
+
+  <label
+   x="46"
+   y="15"
+   w="53"
+   h="16"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0xFFFFFF"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></label>
+
+  <scrolllabel
+   x="112"
+   y="13"
+   w="153"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0xFFFFFF"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  </jukebox>
+
+</coffeecupjukebox>

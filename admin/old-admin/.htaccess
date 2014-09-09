@@ -1,0 +1,43 @@
+AuthType Basic
+AuthName "Edge Radio Administration."
+AuthUserFile /home/edge/public_html/admin/.htpasswd
+
+<Files .htaccess>
+    Deny from all
+</Files>
+
+<Files .htpasswd>
+    Deny from all
+</Files>
+
+<Files index.php>
+    Allow from all
+</Files>
+
+<Files ERP_Form.php>
+    Require user staff
+</Files>
+
+<Files News_Form.php>
+    Require user staff
+</Files>
+
+<Files ERR_Form.php>
+    Require user departments staff
+</Files>
+
+<Files mass_err_form.php>
+    Require user departments staff
+</Files>
+
+<Files Stocksheet.php>
+    Require user departments staff
+</Files>
+
+<Files Prizes_Form.php>
+    Require user presenters staff
+</Files>
+
+<Files WhatsOn_Form.php>
+    Require user presenters staff
+</Files>

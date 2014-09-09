@@ -1,0 +1,61 @@
+#schedule
+{
+	display:block;
+	position:relative;
+	clear:both;
+	margin-left:5px;
+	margin-top: 10px;
+}
+
+.background
+{
+  background-color: #fff;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.tentative, .required {
+   border: 1px solid #fff;
+   background-color: #dddddd;
+   font-size: 8pt;
+   line-height:9pt;
+   font-family: verdana;
+   
+}
+
+.required:hover {
+   background-color: #bbbbbb;
+}
+
+.weeklabel{
+   border: 1px solid #fff;
+   font-family: verdana;
+   font-size: 8pt;
+   height: 16px;
+   background-color: #5A0806;
+   color:#fff;
+}
+
+.time{
+   border: 1px solid #fff;
+   font-family: verdana;
+   font-size: 7pt;
+   background-color:#5A0806;
+   color:#fff;
+}
+
+table.schedule{
+   border: 1px solid #fff;
+   background-color: #ccff99;
+   margin: 0px;
+   padding: 0px;
+}
+
+td.schedule{
+   font-size: 8pt;
+   font-family: verdana;
+   width: 20%;
+}
+

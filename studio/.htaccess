@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^studio.edgeradio.org.au$ [OR]
+RewriteCond %{HTTP_HOST} ^www.studio.edgeradio.org.au$
+RewriteRule ^.*$ "http\:\/\/131\.217\.117\.130" [R=301,L]
+

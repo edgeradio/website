@@ -1,0 +1,46 @@
+/*
+
+ Some styles used by the "Cascading Popup Menus" script.
+ Consult a CSS reference (a good clear one is at www.ncdesign.org) for syntax and tweaking ideas.
+ You can delete the ones you're not using in your ItemStyles, or add more if you want.
+
+*/
+
+
+/*
+ Font settings -- change your font, colour, alignment etc.
+ Insert 'font-weight: bold;' or 'font-style: italic;' without quotes if you want.
+ Note that items contain <A HREF> tags, so if your other stylesheets style anchor tags,
+ these may inherit the rules. I've styled all the variations of links here as one.
+*/
+
+.lowText, a.lowText:link, a.lowText:visited, a.lowText:active, a.lowText:focus {
+ color: #000000;
+ font: 12px Arial, sans-serif;
+ text-align: left;
+ text-decoration: none;
+}
+
+.lowTextC, a.lowTextC:link, a.lowTextC:visited, a.lowTextC:active, a.lowTextC:focus, a.lowTextC:hover {
+ color: #FF0000;
+ font: 12px Arial, sans-serif;
+ text-align: left;
+ text-decoration: none;
+}
+
+.highText, a.highText:link, a.highText:visited, a.highText:active, a.highText:focus {
+ color: #FFFFFF;
+ font: 12px Arial, sans-serif;
+ margin-top:4px;
+ text-align: left;
+ text-decoration: none;
+}
+
+/* Borders used by some items */
+
+.itemBorder {
+ border: 1px solid #6C6376;
+}
+.itemBorderBlank {
+ border: 1px solid #6C6376;
+}

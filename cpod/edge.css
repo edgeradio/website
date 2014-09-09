@@ -1,0 +1,132 @@
+  body {
+	background: #F00 url('http://www.edgeradio.org.au/cpod/edge_bg.jpg') repeat-x;
+    padding: none;
+    border: none;
+    margin: 0px;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: 55;
+    font-size: 9pt;
+  }
+
+  h2 {
+    font-size: 11px;
+	line-height:12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 98%;
+    background: #242529;
+    margin: 5px;
+	padding: 4px 0px;
+	text-align:center;
+	text-transform:uppercase;
+  }
+
+
+  #brand_box {
+    width: 675px;
+    height: 129px;
+    background: url('http://www.edgeradio.org.au/cpod/edge_brand.jpg') no-repeat;
+    margin-top: 0px;
+    margin-bottom: none;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    padding: none;
+  }
+
+  #headline {
+    font-family: Verdana, Arial, Geneva, "Sans Serif"; 
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    vertical-align: middle;
+    position: absolute;
+    top: 14px;
+    left: 87px;
+  }
+
+  #mini_logo {
+    width: 560px;
+    height: 50px;
+    margin: none;
+    border: none;
+    padding: none;
+  }
+
+  #channel_box {
+    width: 800px;
+    padding: 5px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom:20px;
+	border:#F96;
+	border-style:solid;
+	border-width:5px;
+	background-color:#FFF;
+	color:#000;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+  }
+
+  #item_list_box {
+    width: 800px;
+    padding: 5px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom:20px;
+	border:#F96;
+	border-style:solid;
+	border-width:5px;
+	background-color:#FFF;
+	color:#000;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+  }
+
+  #item_list_box h2 {
+    font-size: 2;
+    font-weight: bold;
+    color: black;
+    background: transparent;
+  }
+
+  .channeltable {
+    width: 98%;
+    background: #DDD;
+    margin: 5px;
+  }
+
+
+  .itemstable {
+    width: 98%;
+    border: none;
+    margin: 10px 5px;
+    background: #DDD;
+  }
+
+  td.firstcol {
+    width: 20%;
+  }
+
+  td {
+  text-align: left;
+  vertical-align: top;
+  }
+
+  #itemsbox {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px;
+    background: white;
+  }
+
+  img.feedlogo {
+    padding: 10px;
+    margin-right: 10px;
+  }
+

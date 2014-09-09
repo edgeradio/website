@@ -1,0 +1,61 @@
+	A:hover {color: #FF0000; text-decoration: overline}
+	A:visited {color: #808080;}
+	A:active {color: 808080;}
+	A:link {color: #CC0000; text-decoration:underline}
+	
+	.redlabel{
+	font-family: Arial;
+	font-weight:bold;
+	size:8;
+	color:#CC0000;
+	}
+
+	.redbold{
+	font-family: Arial;
+	font-weight:bold;
+	size:8;
+	color:#CC0000;
+	}
+
+	.redbold:visited {
+	color: #CC0000";
+	}
+	
+	.content {
+	background-image: url('images/bg.gif');
+	background-repeat: repeat;
+	font-family:Arial;
+	font-size:12px;
+	}
+	
+	.menuText {
+	font-family:Arial;
+	color: #ffffff;
+	font-weight:bold;
+	text-decoration:underline;
+	}
+	.menuText:hover {
+	text-decoration:overline;
+	}
+	
+	td.ldetail {
+	background-color: #CCCCCC;
+	font-weight:bold;
+	}
+
+	td.row1 { 	background-color: #CCCCCC;
+	font-weight:bold; }
+	
+	td.rdetail {
+	background-color: #EEEEEE;
+	
+	}
+	
+	td.commentsbox {
+	background-color: #FAFAFA;
+	}
+	
+	
+	body {
+	background-color: #CC0000;
+	}

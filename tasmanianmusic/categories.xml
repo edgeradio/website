@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PodcastGenerator>
+			<category>
+			<id>uncategorized</id>
+			<description>Uncategorized</description>
+			</category>
+			<category>
+			<id>folk</id>
+			<description>Folk</description>
+			</category>
+			<category>
+			<id>punk</id>
+			<description>Punk</description>
+			</category>
+		</PodcastGenerator>

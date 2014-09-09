@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* IE7 Only Stylesheets */
+
+#navbar_float { /* FOR IE */
+	float:left;
+}

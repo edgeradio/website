@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+
+<coffeecupjukebox version="4.3">
+
+  <jukebox
+   x="0"
+   y="0"
+   w="275"
+   h="278"
+   playonstartup="t"
+   loop="f"
+   shuffle="f"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="musicsampler_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+  <rewindbutton
+   x="23"
+   y="67"
+   w="24"
+   h="17"
+   toggle="f"
+   btnupimg="musicsampler_files/previous.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="70"
+   y="67"
+   w="24"
+   h="17"
+   toggle="f"
+   btnupimg="musicsampler_files/next.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="51"
+   y="67"
+   w="15"
+   h="17"
+   toggle="t"
+   btnupimg="musicsampler_files/play.jpg"
+   btndownimg="musicsampler_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="111"
+   y="68"
+   w="35"
+   h="14"
+   toggle="t"
+   btnupimg="musicsampler_files/shuffle_on.jpg"
+   btndownimg="musicsampler_files/shuffle_off.jpg"
+   action="shuf"
+   visible="t"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="119"
+   y="46"
+   w="92"
+   h="13"
+   visible="t"
+  ></volume>
+
+  <progress
+   x="15"
+   y="98"
+   w="220"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="6"
+   y="118"
+   w="264"
+   h="152"
+   visible="t"
+  >
+  <node label="">
+    <node name="Black Mustang - Loaded Gun - Ain't Going Down" file="musicsampler_files/Black Mustang - Loaded Gun - Ain't Going Down.mp3" artist="" label="Black Mustang - Loaded Gun - Ain't Going Down"/>
+    <node name="Celadore - The Bright and Blue - Kinks in Armour" file="musicsampler_files/Celadore - The Bright and Blue - Kinks in Armour.mp3" artist="" label="Celadore - The Bright and Blue - Kinks in Armour"/>
+    <node name="Dead Letter Chorus - Yearlings - Run, Wild" file="musicsampler_files/Dead Letter Chorus - Yearlings - Run, Wild.mp3" artist="" label="Dead Letter Chorus - Yearlings - Run, Wild"/>
+    <node name="Eagle &amp; the Worm - Good Times - 1 to the 4" file="musicsampler_files/Eagle &amp; the Worm - Good Times - 1 to the 4.mp3" artist="" label="Eagle &amp; the Worm - Good Times - 1 to the 4"/>
+    <node name="Elixir Feat Katie Noonan - First Seed Ripening - Last Night's Comfort" file="musicsampler_files/Elixir Feat Katie Noonan - First Seed Ripening - Last Night's Comfort.mp3" artist="" label="Elixir Feat Katie Noonan - First Seed Ripening - Last Night's Comfort"/>
+    <node name="Essendon Airport - Palimpsest - Entrance of the Gladiators" file="musicsampler_files/Essendon Airport - Palimpsest - Entrance of the Gladiators.mp3" artist="" label="Essendon Airport - Palimpsest - Entrance of the Gladiators"/>
+    <node name="Gurrumul Yunupingu - Rrakala - Gopuru" file="musicsampler_files/Gurrumul Yunupingu - Rrakala - Gopuru.mp3" artist="" label="Gurrumul Yunupingu - Rrakala - Gopuru"/>
+    <node name="Hunting Grounds - In Colour (Single) - In Colour (single)" file="musicsampler_files/Hunting Grounds - In Colour (Single) - In Colour (single).mp3" artist="" label="Hunting Grounds - In Colour (Single) - In Colour (single)"/>
+    <node name="Molten Universe - The Green Ray - Cousin Betty" file="musicsampler_files/Molten Universe - The Green Ray - Cousin Betty.mp3" artist="" label="Molten Universe - The Green Ray - Cousin Betty"/>
+    <node name="Other Lives - Tamer Animals - As I Lay My Head Down-1" file="musicsampler_files/Other Lives - Tamer Animals - As I Lay My Head Down-1.mp3" artist="" label="Other Lives - Tamer Animals - As I Lay My Head Down-1"/>
+    <node name="Redcoats - Redcoats EP - Kaytucker" file="musicsampler_files/Redcoats - Redcoats EP - Kaytucker.mp3" artist="" label="Redcoats - Redcoats EP - Kaytucker"/>
+    <node name="San Cisco - Kiss My WAMi 2011 - Golden Revolver" file="musicsampler_files/San Cisco - Kiss My WAMi 2011 - Golden Revolver.mp3" artist="" label="San Cisco - Kiss My WAMi 2011 - Golden Revolver"/>
+    <node name="Husky - Forever So - Tidal Wave" file="musicsampler_files/Husky - Forever So - Tidal Wave.mp3" artist="" label="Husky - Forever So - Tidal Wave"/>
+    <node name="Sietta - The Seventh Passenger - What Am I Supposed To Do-" file="musicsampler_files/Sietta - The Seventh Passenger - What Am I Supposed To Do-.mp3" artist="" label="Sietta - The Seventh Passenger - What Am I Supposed To Do-"/>
+    <node name="Songs - Heavy (single) - Heavy" file="musicsampler_files/Songs - Heavy (single) - Heavy.mp3" artist="" label="Songs - Heavy (single) - Heavy"/>
+    <node name="Teinne - True Type - Freaky World" file="musicsampler_files/Teinne - True Type - Freaky World.mp3" artist="" label="Teinne - True Type - Freaky World"/>
+    <node name="The Aerial Maps - The Sunset Park - Salvation Road" file="musicsampler_files/The Aerial Maps - The Sunset Park - Salvation Road.mp3" artist="" label="The Aerial Maps - The Sunset Park - Salvation Road"/>
+    <node name="The Drones - Gala Mill (A Thousand Mistakes Session) - Work For Me" file="musicsampler_files/The Drones - Gala Mill (A Thousand Mistakes Session) - Work For Me.mp3" artist="" label="The Drones - Gala Mill (A Thousand Mistakes Session) - Work For Me"/>
+    <node name="The Joy Formidable - The Big Roar - Buoy" file="musicsampler_files/The Joy Formidable - The Big Roar - Buoy.mp3" artist="" label="The Joy Formidable - The Big Roar - Buoy"/>
+    <node name="The Panics - Rain On The Humming Wire - Endless Road" file="musicsampler_files/The Panics - Rain On The Humming Wire - Endless Road.mp3" artist="" label="The Panics - Rain On The Humming Wire - Endless Road"/>
+    <node name="Thundamentals - Foreverlution - Check My Fresh" file="musicsampler_files/Thundamentals - Foreverlution - Check My Fresh.mp3" artist="" label="Thundamentals - Foreverlution - Check My Fresh"/>
+    <node name="Timothy Nelson &amp; The Infidels - I Know This Now - You Don't Know What You're Waiting For" file="musicsampler_files/Timothy Nelson &amp; The Infidels - I Know This Now - You Don't Know What You're Waiting For.mp3" artist="" label="Timothy Nelson &amp; The Infidels - I Know This Now - You Don't Know What You're Waiting For"/>
+    <node name="Kobra Kai - Kobra Kai - Rollerball" file="musicsampler_files/Kobra Kai - Kobra Kai - Rollerball.mp3" artist="" label="Kobra Kai - Kobra Kai - Rollerball"/>
+    <node name="Mustered Courage - Mustered Courage - Middle Ground" file="musicsampler_files/Mustered Courage - Mustered Courage - Middle Ground.mp3" artist="" label="Mustered Courage - Mustered Courage - Middle Ground"/>
+    <node name="Ruby Boots - At Last EP - Devil" file="musicsampler_files/Ruby Boots - At Last EP - Devil.mp3" artist="" label="Ruby Boots - At Last EP - Devil"/>
+    <node name="Jolie Holland &amp; The Grand Chandeliers - Pint of Blood - Gold and Yellow" file="musicsampler_files/Jolie Holland &amp; The Grand Chandeliers - Pint of Blood - Gold and Yellow.mp3" artist="" label="Jolie Holland &amp; The Grand Chandeliers - Pint of Blood - Gold and Yellow"/>
+    <node name="Amaya Laucirica - Anywhere There's You EP - No Excuses" file="musicsampler_files/Amaya Laucirica - Anywhere There's You EP - No Excuses.mp3" artist="" label="Amaya Laucirica - Anywhere There's You EP - No Excuses"/>
+    <node name="Sophie Koh - Oh My Garden - Lo-Fi" file="musicsampler_files/Sophie Koh - Oh My Garden - Lo-Fi.mp3" artist="" label="Sophie Koh - Oh My Garden - Lo-Fi"/>
+    <node name="The Gracemakers - The Gracemakers EP - Blanket" file="musicsampler_files/The Gracemakers - The Gracemakers EP - Blanket.mp3" artist="" label="The Gracemakers - The Gracemakers EP - Blanket"/>
+    <node name="Songs - Songs EP - KC's in Trouble" file="musicsampler_files/Songs - Songs EP - KC's in Trouble.mp3" artist="" label="Songs - Songs EP - KC's in Trouble"/>
+    <node name="Ben Wells &amp; The Middle Names - A Good Read (single) - A Good Read" file="musicsampler_files/Ben Wells &amp; The Middle Names - A Good Read (single) - A Good Read.mp3" artist="" label="Ben Wells &amp; The Middle Names - A Good Read (single) - A Good Read"/>
+    <node name="M. Jack Bee - Sound Of Love - She Said single - Sound Of Love" file="musicsampler_files/M. Jack Bee - Sound Of Love - She Said single - Sound Of Love.mp3" artist="" label="M. Jack Bee - Sound Of Love - She Said single - Sound Of Love"/>
+    <node name="Slow Chase - The Blind Spot EP - Algernon" file="musicsampler_files/Slow Chase - The Blind Spot EP - Algernon.mp3" artist="" label="Slow Chase - The Blind Spot EP - Algernon"/>
+    <node name="Spectrals - Bad Penny - Get A Grip" file="musicsampler_files/Spectrals - Bad Penny - Get A Grip.mp3" artist="" label="Spectrals - Bad Penny - Get A Grip"/>
+    <node name="First Aid Kit - The Lion's Roar - The Lion's Roar" file="musicsampler_files/First Aid Kit - The Lion's Roar - The Lion's Roar.mp3" artist="" label="First Aid Kit - The Lion's Roar - The Lion's Roar"/>
+    <node name="Lanie Lane - To the Horses - Jungle Man" file="musicsampler_files/Lanie Lane - To the Horses - Jungle Man.mp3" artist="" label="Lanie Lane - To the Horses - Jungle Man"/>
+    <node name="Michaela Baranov - (Single) - Hurricane" file="musicsampler_files/Michaela Baranov - (Single) - Hurricane.mp3" artist="" label="Michaela Baranov - (Single) - Hurricane"/>
+  </node>
+
+  </tree>
+
+  <label
+   x="46"
+   y="15"
+   w="53"
+   h="16"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0xFFFFFF"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></label>
+
+  <scrolllabel
+   x="112"
+   y="13"
+   w="153"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0xFFFFFF"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  </jukebox>
+
+</coffeecupjukebox>

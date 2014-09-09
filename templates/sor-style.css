@@ -1,0 +1,748 @@
+@charset "UTF-8";
+/* Base Style */
+
+html { 
+min-height: 100%; 
+margin-bottom: 1px;
+height:100%;
+}
+
+hr { 
+width:100%;
+height:1px;
+color:#CCC;
+}
+
+img {
+border:0px;
+}
+
+
+@font-face {
+/* for other browsers */
+font-family: 'bebas';
+    src: url('BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BebasNeue-webfont.woff') format('woff'),
+         url('BebasNeue-webfont.ttf') format('truetype'),
+         url('BebasNeue-webfont.svg') format('svg');
+}
+
+
+
+body { 
+	background-color:#323232;
+	background: url(http://www.edgeradio.org.au/images/sor-bg-blank.jpg) repeat center top;
+	margin: 0;
+	font-family: verdana;
+	font-size: 12px;
+	line-height:14px;
+	height:100%;
+}
+
+.newstext {
+	font-size: 11px;
+	line-height:14px;
+	max-height:400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	scrollbar-arrow-color: red; 
+    width:100%;
+}
+
+.archivetext {
+	font-size: 11px;
+	line-height:14px;
+	height:100%;
+    width:100%;
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+
+.smalltext {
+	font-size: 11px;
+	line-height:14px;
+	text-align:left;
+}
+
+.text {
+	font-size: 12px;
+	line-height:14px;
+}
+
+.text_red {
+	font-size: 12px;
+	line-height:14px;
+	color:#F00;
+	}
+
+.greyheader {
+	background:#242424;
+	color:#FFF;
+	margin-top:10px;
+ font-size: 28px;
+ font-weight: normal;
+ padding: 0 0 0 5px;
+line-height: 18px;
+letter-spacing:1px;
+font-family: "bebas", arial, serif;
+}
+
+.redheader {
+	font-size: 11px;
+	line-height:12px;
+	background:#F00;
+	color:#FFF;
+	font-weight:bolder;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:4px 0px;
+	margin-top:10px;
+}
+
+.title {
+ font-size: 24px;
+line-height: 24px;
+font-family: "bebas", arial, serif;
+ }
+ 
+ .title-head-sidebar {
+ background: #000000;
+ color: #FFFFFF;
+ width: 195px;
+ position:relative;
+top:-6px;
+left:-15px;
+ -moz-border-top-left-radius:15px;
+ -moz-border-top-right-radius:15px;
+-webkit-border-top-left-radius:15px;
+-webkit-border-top-right-radius:15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+padding: 10px 0px 10px 15px;
+ font-size: 20px;
+line-height: 20px;
+font-family: "bebas", arial, serif;
+ }
+ 
+  .title-head-right {
+ background: #000000;
+ color: #FFFFFF;
+ width: 750px;
+ position:relative;
+top:-25px;
+left:-15px;
+ -moz-border-top-left-radius:15px;
+ -moz-border-top-right-radius:15px;
+-webkit-border-top-left-radius:15px;
+-webkit-border-top-right-radius:15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+padding: 10px 0px 10px 15px;
+ font-size: 28px;
+line-height: 28px;
+font-family: "bebas", arial, serif;
+margin-bottom: -20px;
+ }
+ 
+ .title-head-right-one {
+ background: #000000;
+ color: #FFFFFF;
+ width: 985px;
+ position:relative;
+top:-25px;
+left:-15px;
+ -moz-border-top-left-radius:15px;
+ -moz-border-top-right-radius:15px;
+-webkit-border-top-left-radius:15px;
+-webkit-border-top-right-radius:15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+padding: 10px 0px 10px 15px;
+ font-size: 28px;
+line-height: 28px;
+font-family: "bebas", arial, serif;
+margin-bottom: 0px;
+ }
+
+
+/* Now Playing in Header */
+
+#navbar_nowon {
+	float:right;
+	height: 78px; width: 280px;
+}
+
+#navbar_nowon .show_image {
+ float: left;
+ margin: 10px 10px 0 0;
+ width: 60px;
+ height: 60px;
+ -moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+ }
+
+#navbar_nowon .show_title {
+ width: 200px;
+float: left;
+font-size: 10px;
+margin: 10px 0 0 0;
+color: #C0C0C0;
+text-decoration: none;
+ }
+ 
+ #navbar_nowon .show_title a:link {
+  width: 100%;
+color: #FFFFFF;
+font-size: 11px;
+line-height: 14px;
+text-decoration: none;
+ }
+ 
+  #navbar_nowon .show_title a:visited {
+   width: 100%;
+color: #FFFFFF;
+font-size: 11px;
+line-height: 14px;
+text-decoration: none;
+ }
+ 
+  #navbar_nowon .show_title a:hover {
+   width: 100%;
+color: #FFFFFF;
+font-size: 11px;
+line-height: 14px;
+text-decoration: none;
+ }
+ 
+ .top_exp {
+  background-image: url(http://www.edgeradio.org.au/images/edge-expl-back.png);
+  padding: 10px;
+  color: #FFFFFF;
+  margin: 5px 0 5px 0;
+  }
+
+.top_exp h1 {
+  font-size: 38px;
+line-height: 20px;
+font-family: "bebas", arial, serif;
+font-weight: normal;
+color: #FFFFFF;
+ }
+ 
+
+.imagepagetext {
+   width: 70%;
+   text-align: left;
+   padding: 15px;
+   font-size: 12px;
+   line-height: 16px;
+   background-image: url(http://www.edgeradio.org.au/images/overlay-white.png);
+   -moz-border-bottom-left-radius:15px; 
+   -webkit-border-bottom-left-radius:15px;
+}
+
+
+
+/* Page Layout Containers and Background */
+
+
+#navbar_nav ul
+{
+list-style: none;
+height: 30px;
+padding: 6px 0 0 0;
+margin: 0px 0 0 0;
+text-decoration: none;
+font-size: 24px;
+line-height: 20px;
+font-family: "bebas", arial, serif;
+}
+
+#navbar_nav li
+{
+float: left;
+margin: 0 48px 0 0;
+}
+
+#navbar_nav li.last
+{
+float: left;
+margin: 0 0 0 0;
+}
+
+#navbar_nav a:link
+{
+color: #FFFFFF;
+text-decoration: none;
+}
+
+#navbar_nav a:hover
+{
+color: #E3E3E3;
+text-decoration: none;
+}
+
+#navbar_nav a:visited
+{
+color: #FFFFFF;
+text-decoration: none;
+}
+
+#navbar_float {
+	display:block;
+	float:none;
+}
+
+#navbar_head {
+	height: 78px;
+	width: 1000px;
+}
+
+
+#navbar_fluid {
+width: 100%;
+background: url(../images/edge-head.png) repeat-x;
+}
+
+#navbar { 
+	width:1000px;
+	height:108px;
+	margin: 0 auto;
+}
+
+
+
+#topbanner {
+ padding: 15px;
+	width:680px;
+	height:90px;
+	margin-left: auto;
+	margin-right: auto;
+	clear:none;
+	display:block;
+	z-index:1;
+}
+
+#main_fluid {
+width: 100%;
+background-color: #292C30;
+position: absolute;
+height: 100%;
+top: 132px;
+left: 0px;
+background: url(http://www.edgeradio.org.au/images/sor-bg.jpg) no-repeat center top;
+}
+
+
+#main_container {
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+	position:relative;
+	top:208px;
+	margin-bottom: 350px;
+	z-index:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	height: 100%;
+	
+}
+
+#right_column {
+float:rigtitle-head-rightht;
+width:210px;
+text-align:center;
+
+}
+
+#left_column {
+float:left;
+width: 210px;
+text-align:center;
+height: 100%;
+}
+
+#three_column {
+width:530px;
+margin: 0 auto;
+text-align:left;
+height:100%;
+left:235px;
+}
+	
+#two_column {
+width:765px;
+margin: 0 auto;
+text-align:left;
+height:100%;
+float: right;
+right:0px;
+}
+
+#one_column {
+width:1000px;
+margin: 0 auto;
+text-align:left;
+height:100%;
+left:0px;
+}
+
+
+ul.border-light {
+list-style-type: none;
+font-size: 20px;
+line-height: 20px;
+font-family: "bebas", arial, serif;
+margin: 0;
+padding: 0;
+}
+
+.border-light li{
+ padding: 4px 8px 4px;
+ }
+
+ .border-light a:link {
+color: #1B1B1B;
+text-decoration: none;
+}
+
+.border-light a:visited {
+color: #1B1B1B;
+text-decoration: none;
+}
+
+.border-light a:hover {
+color: #3C3C3C;
+text-decoration: none;
+}
+
+ul.border-light-bottom {
+list-style-type: none;
+font-size: 20px;
+line-height: 20px;
+font-family: "bebas", arial, serif;
+margin: 10px 0 0 0;
+padding: 0 0 0 0;
+}
+
+.border-light-bottom li{
+ padding: 4px 8px 4px;
+ }
+
+ .border-light-bottom a:link {
+color: #707070;
+text-decoration: none;
+}
+
+.border-light-bottom a:visited {
+color: #707070;
+text-decoration: none;
+}
+
+.border-light-bottom a:hover {
+color: #C2C2C2;
+text-decoration: none;
+}
+
+/* ROUNDED CORNERS */
+
+div.roundedcontainer {
+	display:block;
+	float:left;
+}
+
+div.rounded, div.rounded-side {
+	background-color:#FFF;
+	color:#000;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	padding:5px 15px;
+	font-size: 12px;
+	line-height:14px;
+	text-align:left;
+}
+
+div.roundednew, div.rounded-side-new {
+	background-color:#FFF;
+	color:#000;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	padding:5px 15px;
+	font-size: 12px;
+	line-height:14px;
+	text-align:left;
+	}
+
+div.roundedblack {
+	background-color:#000;
+	color:#FFF;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	padding:5px 15px;
+	font-size: 11px;
+	line-height:14px;
+	text-align:left;
+}
+
+
+
+
+
+
+
+/* Misc Styles */
+
+.shading {
+	background-color: #F4F4F4;  
+}
+	
+	.row2 {
+	background-color: #CCCCCC;
+	background-repeat: repeat;
+	font-family:Arial;
+	font-size:12px;
+	}
+	
+.flickrimg { 
+width:163px;
+padding-left:2px;
+height:auto;
+border:none;
+padding-bottom:15px;
+}
+
+	.listenlink {
+	text-decoration: none; 
+	color: #FF0000; 
+	font-weight: bold;
+	}
+	
+	.programtext {
+	text-decoration: none; 
+	color: #1E1E1E; 
+	font-weight: bold;
+	}
+
+.published {
+	display:block; 
+	text-align: center;
+	float:left; 
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 1px solid #FF9C9A;
+	padding: 0 0 2px 0;
+	margin: 0 10px 0 0;
+	width:2.2em;
+}
+.pub-month {
+	display:block;
+	font-size: .9em;
+	margin:0; 
+	padding:0;
+	padding-top:12px;
+	background:url(http://www.edgeradio.org.au/images/clip-top.png) 
+		center top repeat-x;
+}
+.pub-date { 
+	display:block; 
+	font-size:1.4em;
+	margin:0; 
+	padding:0;
+}
+
+.indentmenu{
+	overflow: hidden;
+	background-color:#1A1A1A;
+	color:#FFFFFF;
+	-moz-border-top-left-radius:15px;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-top-right-radius:15px;
+	-webkit-border-top-right-radius:15px;
+}
+
+.indentmenu ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.indentmenu ul li{
+	display: inline;
+}
+.indentmenu ul li a{
+	float: left;
+	color: #FFFFFF;
+	background-color:#1A1A1A;
+	padding: 20px 15px;
+	text-decoration: none;
+	line-height: 16px;
+	font-size: 20px;
+	font-weight: bold;
+	font-spacing: 1px;
+font-family: "bebas", arial, serif;
+}
+
+.indentmenu ul li a:visited{
+	color: #FFFFFF;
+	
+}
+.indentmenu ul li a:hover{
+	color: #C0C0C0;
+	background-color:#000000;
+}
+.indentmenu ul li a#selected{
+	color: #C0C0C0;
+	background-color:#000000;
+}
+
+
+
+
+.indentmenuadmin {
+	overflow: hidden;
+	background-color:#000000;
+	color:#FFFFFF;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius: 15px;
+}
+
+.indentmenuadmin ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.indentmenuadmin ul li{
+	display: inline;
+}
+.indentmenuadmin ul li a{
+	float: left;
+	color: #FFFFFF;
+	background-color:#000000;
+	padding: 17px 15px;
+	text-decoration: none;
+	line-height: 16px;
+	font-size: 20px;
+	font-weight: bold;
+	font-spacing: 1px;
+font-family: "bebas", arial, serif;
+}
+
+.indentmenuadmin ul li a:visited{
+	color: #FFFFFF;
+	
+}
+.indentmenuadmin ul li a:hover{
+	color: #C0C0C0;
+	background-color:#1A1A1A;
+}
+.indentmenuadmin ul li a#selected{
+	color: #C0C0C0;
+	background-color:#1A1A1A;
+}
+
+#stylized label{
+display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+#stylized .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+#stylized .smin input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #990000;
+width:300px;
+margin:2px 0 20px 10px;
+}
+#stylized .smin textarea{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #990000;
+width:300px;
+margin:2px 0 20px 10px;
+}
+
+ul.admin-light {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.admin-light li{
+ font-size: 12px;
+ margin: 0;
+ padding: 2px;
+ }
+ 
+ 
+ .admin-light a:link {
+color: #1B1B1B;
+font-size: 12px;
+text-decoration: none;
+}
+
+.admin-light a:visited {
+color: #1B1B1B;
+font-size: 12px;
+text-decoration: none;
+}
+
+.admin-light a:hover {
+color: #808080;
+font-size: 12px;
+text-decoration: none;
+}
+
+div.head_trans {
+ 	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	background:url(http://www.edgeradio.org.au/images/overlay.png);
+	padding: 10px;
+ 
+ }
+
+.black_overlay{
+			display: none;
+			top: 0%;
+			left: 0%;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			z-index:1001;
+			-moz-opacity: 0.8;
+			opacity:.80;
+			filter: alpha(opacity=80);
+			position:fixed;
+		}
+		.white_content {
+			display: none;
+			position: absolute;
+			top: 5%;
+			left: 25%;
+			width: 50%;
+			height: 70%;
+			padding: 120px 10px 16px 16px;
+			border: 16px solid #1A1A1A;
+			background-color: white;
+			background-image: url(http://www.edgeradio.org.au/images/email-stu-banner.png);
+			background-repeat: no-repeat;
+			background-position: top left;
+			z-index:1002;
+			overflow: auto;
+		}

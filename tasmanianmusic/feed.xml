@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- generator="Podcast Generator 1.3" -->
+		<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en" version="2.0">
+	<channel>
+		<title>Tasmanian Music Downloads</title>
+		<link>http://www.edgeradio.org.au/tasmanianmusic/</link>
+		<description>Here at Edge Radio we luuurve supporting Tasmanian artists. So much so that we're making it even easier for you to get your hands on fresh Tasmanian tracks, straight from us to you. Here you'll find our feature tracks available for you to download this month, for free.
+
+Get some Tassie music onto your player. If you like it, request the artist on Edge Radio, or better yet, go check out the band online, at a local gig, or buy their album. 
+
+Subscribe to our downloads and they'll magically appear as soon as we upload a new one. Amazing!</description>
+		<generator>Podcast Generator 1.3 - http://podcastgen.sourceforge.net</generator>
+	<lastBuildDate>Thu, 24 Nov 2011 14:31:31 +1100</lastBuildDate>
+		<language>en</language>
+		<copyright>Your copyright notice</copyright>
+		<itunes:image href="http://www.edgeradio.org.au/tasmanianmusic/images/itunes_image.jpg" />
+		<image>
+		<url>http://www.edgeradio.org.au/tasmanianmusic/images/itunes_image.jpg</url>
+		<title>Tasmanian Music Downloads</title>
+		<link>http://www.edgeradio.org.au/tasmanianmusic/</link>
+		</image>
+		<itunes:summary>Here at Edge Radio we luuurve supporting Tasmanian artists. So much so that we're making it even easier for you to get your hands on fresh Tasmanian tracks, straight from us to you. Here you'll find our feature tracks available for you to download this month, for free.
+
+Get some Tassie music onto your player. If you like it, request the artist on Edge Radio, or better yet, go check out the band online, at a local gig, or buy their album. 
+
+Subscribe to our downloads and they'll magically appear as soon as we upload a new one. Amazing!</itunes:summary>
+		<itunes:subtitle>Edge Radio - Supporting Tassie Music Twenty-Four-Seven</itunes:subtitle>
+		<itunes:author>Edge Radio</itunes:author>
+		<itunes:owner>
+		<itunes:name>Edge Radio</itunes:name>
+		<itunes:email>web@edgeradio.org.au</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:category text="Arts">
+			</itunes:category>
+			<item>
+								<title>An Aussie Christmas Tune - Andrew Marshall</title>
+								<itunes:subtitle>An Aussie Christmas Tune - Andrew Marshall</itunes:subtitle>
+								<itunes:summary><![CDATA[ With the festive season upon us, local musician Andrew Marshall is giving away a new song he recently wrote for a UK radio station - 'An Aussie Christmas Tune'.For more music, info and videos visit Andrew online at andrewmarshallmusic.com In December, Andrew will also be releasing a new song he wrote as a duet with local Hobart singer/songwriterHannah May - stay tuned at Andrew's website and via his mailing list. ]]></itunes:summary>
+								<description>An Aussie Christmas Tune - Andrew Marshall</description>
+								<link>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_anaussiechristmastune_andrewmarshall.mp3</link>
+								<enclosure url="http://www.edgeradio.org.au/tasmanianmusic/media/2011-11-24_anaussiechristmastune_andrewmarshall.mp3" length="5741069" type="audio/mpeg"/>
+								<guid>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_anaussiechristmastune_andrewmarshall.mp3</guid>
+								<itunes:duration>3:27</itunes:duration>
+									<author>web@edgeradio.org.au (Andrew Marshall)</author>
+									<itunes:author>Andrew Marshall</itunes:author>
+									<itunes:explicit>no</itunes:explicit>
+									<pubDate>Thu, 24 Nov 2011 12:56:40 +1100</pubDate>
+								</item><item>
+								<title>Bartholomew's Bed - Andrew Marshall</title>
+								<itunes:subtitle>Bartholomew's Bed - Andrew Marshall</itunes:subtitle>
+								<itunes:summary><![CDATA[ Andrew is also giving away a pre-release track 'Bartholomew's Bed' from his upcoming studio album. The song was a recent finalist in the Australian MusicOz Awards. ]]></itunes:summary>
+								<description>Bartholomew's Bed - Andrew Marshall</description>
+								<link>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_bartholomewsbed_andrewmarshall.mp3</link>
+								<enclosure url="http://www.edgeradio.org.au/tasmanianmusic/media/2011-11-24_bartholomewsbed_andrewmarshall.mp3" length="5306400" type="audio/mpeg"/>
+								<guid>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_bartholomewsbed_andrewmarshall.mp3</guid>
+								<itunes:duration>4:00</itunes:duration>
+									<author>web@edgeradio.org.au (Andrew Marshall)</author>
+									<itunes:author>Andrew Marshall</itunes:author>
+									<itunes:explicit>no</itunes:explicit>
+									<pubDate>Thu, 24 Nov 2011 12:48:12 +1100</pubDate>
+								</item><item>
+								<title>Scenes - Barry Jones</title>
+								<itunes:subtitle>Scenes - Barry Jones</itunes:subtitle>
+								<itunes:summary><![CDATA[ Local singer/songwriter Barry Jones recently dropped his latest EP 'Co-morbidity' in conjunction with Mental Health Week 2011.Barry has kindly put the EP up for free on Edge Radio's Tasmanian Music Downloads page - download all seven tracks for free now.  ]]></itunes:summary>
+								<description>Scenes - Barry Jones</description>
+								<link>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_scenes.mp3</link>
+								<enclosure url="http://www.edgeradio.org.au/tasmanianmusic/media/2011-11-24_scenes.mp3" length="982205" type="audio/mpeg"/>
+								<guid>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_scenes.mp3</guid>
+								<itunes:duration>1:01</itunes:duration>
+									<author>web@edgeradio.org.au (Barry Jones)</author>
+									<itunes:author>Barry Jones</itunes:author>
+									<itunes:explicit>no</itunes:explicit>
+									<pubDate>Thu, 24 Nov 2011 12:40:15 +1100</pubDate>
+								</item><item>
+								<title>Losing The Plot - Barry  Jones</title>
+								<itunes:subtitle>Losing The Plot - Barry  Jones</itunes:subtitle>
+								<itunes:summary><![CDATA[ Taken from the EP 'Co-morbidity' ]]></itunes:summary>
+								<description>Losing The Plot - Barry  Jones</description>
+								<link>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_losing_the_plot.mp3</link>
+								<enclosure url="http://www.edgeradio.org.au/tasmanianmusic/media/2011-11-24_losing_the_plot.mp3" length="3530084" type="audio/mpeg"/>
+								<guid>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_losing_the_plot.mp3</guid>
+								<itunes:duration>3:41</itunes:duration>
+									<author>web@edgeradio.org.au (Barry Jones)</author>
+									<itunes:author>Barry Jones</itunes:author>
+									<itunes:explicit>no</itunes:explicit>
+									<pubDate>Thu, 24 Nov 2011 12:35:17 +1100</pubDate>
+								</item><item>
+								<title>Don't Belong - Barry Jones</title>
+								<itunes:subtitle>Don't Belong - Barry Jones</itunes:subtitle>
+								<itunes:summary><![CDATA[ Taken from the EP 'Co-morbidity' ]]></itunes:summary>
+								<description>Don't Belong - Barry Jones</description>
+								<link>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_dont_belong.mp3</link>
+								<enclosure url="http://www.edgeradio.org.au/tasmanianmusic/media/2011-11-24_dont_belong.mp3" length="3515873" type="audio/mpeg"/>
+								<guid>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_dont_belong.mp3</guid>
+								<itunes:duration>3:40</itunes:duration>
+									<author>web@edgeradio.org.au (Barry Jones)</author>
+									<itunes:author>Barry Jones</itunes:author>
+									<itunes:explicit>no</itunes:explicit>
+									<pubDate>Thu, 24 Nov 2011 12:34:16 +1100</pubDate>
+								</item><item>
+								<title>Drone - Barry Jones</title>
+								<itunes:subtitle>Drone - Barry Jones</itunes:subtitle>
+								<itunes:summary><![CDATA[ Taken from the EP 'Co-morbidity' ]]></itunes:summary>
+								<description>Drone - Barry Jones</description>
+								<link>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_drone.mp3</link>
+								<enclosure url="http://www.edgeradio.org.au/tasmanianmusic/media/2011-11-24_drone.mp3" length="748983" type="audio/mpeg"/>
+								<guid>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_drone.mp3</guid>
+								<itunes:duration>0:47</itunes:duration>
+									<author>web@edgeradio.org.au (Barry Jones)</author>
+									<itunes:author>Barry Jones</itunes:author>
+									<itunes:explicit>no</itunes:explicit>
+									<pubDate>Thu, 24 Nov 2011 12:33:16 +1100</pubDate>
+								</item><item>
+								<title>Jandamarra - Barry Jones</title>
+								<itunes:subtitle>Jandamarra - Barry Jones</itunes:subtitle>
+								<itunes:summary><![CDATA[ Taken from th EP 'Co-morbidity'  ]]></itunes:summary>
+								<description>Jandamarra - Barry Jones</description>
+								<link>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_jandamarra.mp3</link>
+								<enclosure url="http://www.edgeradio.org.au/tasmanianmusic/media/2011-11-24_jandamarra.mp3" length="3859436" type="audio/mpeg"/>
+								<guid>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_jandamarra.mp3</guid>
+								<itunes:duration>4:01</itunes:duration>
+									<author>web@edgeradio.org.au (Barry Jones)</author>
+									<itunes:author>Barry Jones</itunes:author>
+									<itunes:explicit>no</itunes:explicit>
+									<pubDate>Thu, 24 Nov 2011 12:31:59 +1100</pubDate>
+								</item><item>
+								<title>Out Of It - Barry Jones</title>
+								<itunes:subtitle>Out Of It - Barry Jones</itunes:subtitle>
+								<itunes:summary><![CDATA[ Taken from the EP 'Co-morbidity' ]]></itunes:summary>
+								<description>Out Of It - Barry Jones</description>
+								<link>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_out_of_it.mp3</link>
+								<enclosure url="http://www.edgeradio.org.au/tasmanianmusic/media/2011-11-24_out_of_it.mp3" length="3451925" type="audio/mpeg"/>
+								<guid>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_out_of_it.mp3</guid>
+								<itunes:duration>3:36</itunes:duration>
+									<author>web@edgeradio.org.au (Barry Jones)</author>
+									<itunes:author>Barry Jones</itunes:author>
+									<itunes:explicit>no</itunes:explicit>
+									<pubDate>Thu, 24 Nov 2011 12:30:34 +1100</pubDate>
+								</item><item>
+								<title>Wake Up - Barry Jones</title>
+								<itunes:subtitle>Wake Up - Barry Jones</itunes:subtitle>
+								<itunes:summary><![CDATA[ Taken from the EP 'Co-morbidity' ]]></itunes:summary>
+								<description>Wake Up - Barry Jones</description>
+								<link>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_wake_up.mp3</link>
+								<enclosure url="http://www.edgeradio.org.au/tasmanianmusic/media/2011-11-24_wake_up.mp3" length="1018567" type="audio/mpeg"/>
+								<guid>http://www.edgeradio.org.au/tasmanianmusic/?p=episode&amp;name=2011-11-24_wake_up.mp3</guid>
+								<itunes:duration>1:04</itunes:duration>
+									<author>web@edgeradio.org.au (Barry  Jones)</author>
+									<itunes:author>Barry  Jones</itunes:author>
+									<itunes:explicit>no</itunes:explicit>
+									<pubDate>Thu, 24 Nov 2011 12:27:27 +1100</pubDate>
+								</item></channel></rss>

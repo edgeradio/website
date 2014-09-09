@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link type="text/css" rel="stylesheet" href="../resources/css/validform.custom.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../resources/libraries/htmlform_js_libs.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="../resources/libraries/ajaxfileupload.js"></script>
+        <style>
+            input.vf__button {float:left;}
+            body {width:550px; margin:0px}
+            form.validform fieldset.main_fieldset {border:0px;background-color:#FFFFFF}
+            form.validform label {color:#000000}
+            h1 {color:#000000}
+            form.validform .vf__description {color:#000000}
+            form.validform .vf__notice {color:#000000}
+            form.validform .vf__tip {color:#000000}
+            input.vf__button {color:#000000}
+            #element_4e6897e48ca63 {width:400px;}
+            .fieldlabel_block {width:80px;}
+            form.validform .container_recaptcha {left:65px;}
+            #captchaStatus {color:red;}
+            #label_51da921b4f84f {margin-left:0px;}
+        </style>
+        <!--LINKS-->
+    </head>
+    <body>
+        <script type="text/javascript">
+            // <![CDATA[
+            if(parent.document.getElementById('htmlformcomloader_idfea4a5_e3a')) {
+                if(parent.document.getElementById('loadinghtmlformcom_idfea4a5_e3a')){
+                    parent.document.getElementById('htmlformcomloader_idfea4a5_e3a').removeChild(parent.document.getElementById('loadinghtmlformcom_idfea4a5_e3a'));
+                }
+                if(parent.document.getElementById('rotatorhtmlformcom_idfea4a5_e3a')) {  
+                    parent.document.getElementById('htmlformcomloader_idfea4a5_e3a').removeChild(parent.document.getElementById('rotatorhtmlformcom_idfea4a5_e3a'));
+                }
+            }
+            function validateCaptcha()
+            {
+                challengeField = $("input#recaptcha_challenge_field").val();
+                responseField = $("input#recaptcha_response_field").val();
+                var html = $.ajax({
+                    type: "POST",
+                    url: "ajax.recaptcha.php",
+                    data: "recaptcha_challenge_field=" + challengeField + "&recaptcha_response_field=" + responseField,
+                    async: false
+                }).responseText;
+                if (html.replace(/^\s+|\s+$/, '') == "success")
+                {
+                    $("#captchaStatus").html(" ");
+                    resizeParentIframe();
+                    return true;
+                }
+                else
+                {
+                    $("#captchaStatus").html("Your captcha is incorrect. Please try again");
+                    Recaptcha.reload();
+                    resizeParentIframe();
+                    return false;
+                }
+            }
+            var RecaptchaOptions = {
+                theme : 'clean',"width":400
+            };
+            $(document).ready(function() {
+                if(parent.document.getElementById('htmlformcom_wp_loader_idfea4a5_e3a')){
+                    $("#poweredhtmlformcom").remove();
+                }
+                $("#htmlform").width(550);
+                $("#htmlform").css('overflow','hidden');
+                //var w = parseInt($("#htmlform").css('width'));
+                var w = 550;
+                var navlb_space = 2*(5 + parseInt($('#htmlform').find('.main_fieldset:first').css('padding-right')));
+                $('.field_block').each(function(){
+                    var label = $(this).children(':first-child').find('.fieldlabel_block:first').find('label:first');
+                    var w_label = parseInt(label.css('width')) + parseInt(label.css('padding-left')) + parseInt(label.css('padding-right')) + parseInt(label.css('margin-right'));
+                    $(this).children(':first-child').find('.fielddesc_block:first').width(w-w_label-navlb_space-2 );
+                    $(this).width(w-navlb_space+2);
+                    $(this).css('overflow','hidden');
+                }
+                );
+                $('.embd_object').each(function(){
+                    var w_margin = parseInt($(this).css('margin-left'));
+                    $(this).width(w-navlb_space-w_margin-2);
+                    //alert(w-navlb_space-w_margin-2);
+                    $(this).css('overflow','hidden');
+                }
+                );
+                resizeParentIframe();
+                $('#recaptcha_logo').remove();
+                $('#recaptcha_tagline').remove();
+                $.datepicker.setDefaults($.datepicker.regional['en']);
+                $('.datepicker').datepicker({ dateFormat: 'dd MM yy', duration: 'fast', changeMonth:true, changeYear:true, gotoCurrent:true, showOtherMonths:true ,yearRange: '1920:2020' });
+                $('.datepicker').disablekeyboard();
+                // Notice the use of the each() method to acquire access to each elements attributes
+                $('label[data-tooltip]').livequery(function()
+                {
+                    if ($(this).attr('data-tooltip')) {
+                        $(this).qtip({
+                            content: $(this).attr('data-tooltip'), // Use the tooltip attribute of the element for the content
+                            style: 'light' // Give it a crea mstyle to make it stand out
+                        });
+                    }
+                });
+            });
+            $(function(){
+                var objForm = new ValidForm("htmlform", "One or more errors occurred. Check the marked fields and try again.");
+                objForm.addElement('element_4e6897e48ca63', 
+                'Message',
+                ''
+                , 
+                true, 
+                9000,
+                null,
+                '',
+                'Enter only letters, numbers and punctuation symbols.',
+                'This field is required.', 
+                'The value is the hint value. Enter your own value.', 
+                'Your input is too short. A minimum of  characters or digits are allowed.', 
+                'Your input is too long. A maximum of  characters or digits are allowed.');
+                objForm.addElement('element_51da921b4f84f[]', 
+                'agreement_51da948a89c20',
+                '', 
+                true, 
+                null,
+                null,
+                '',
+                '',
+                'This field is required.', 
+                'The value is the hint value. Enter your own value.', 
+                'Your input is too short. A minimum of  characters or digits are allowed.', 
+                'Your input is too long. A maximum of  characters or digits are allowed.');
+            });
+            // ]]></script>
+        <form id="htmlform"  method="get" enctype="multipart/form-data" action="form_processor.php" class="validform" onSubmit="return (validateCaptcha());">
+            <fieldset class="main_fieldset">
+                <div class="formname">
+                    <h1>Contact Form</h1>
+                </div>
+                <div class="vf__notice">
+                    <p>Required fields are printed in bold.</p>
+                </div>
+                <div class="formbody">
+                    <ol>
+                        <li >
+                            <div class='field_block'>
+                                <div class="vf__required">
+                                    <div class="fieldlabel_block">
+                                        <label data-tooltip="A simple summary of the subject you want to treat" >
+                                            Message<span class="asterisk_required">*</span>
+                                        </label>
+                                    </div>
+                                    <div class="fielddesc_block">
+                                        <input type="text" name="element_4e6897e48ca63" value="" id="element_4e6897e48ca63" data-label="Message" class="vf__text"  />
+                                        <span class='vf__tip' >Write your social message in the box above.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li >
+                            <div class='container_recaptcha'>
+                                <div class='recaptcha'>
+                                    <div class='vf__recaptcha'>
+                                        <a href='http://recaptcha.com' target='_blank'>Recaptcha</a> validation: <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=MY_PUBLIC_KEY"></script>
+                                    <noscript>
+                                        <iframe src="http://www.google.com/recaptcha/api/noscript?k=MY_PUBLIC_KEY" height="300" width="500" style="border:0px">
+                                        </iframe>
+                                        <br/>
+                                        <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+                                        <input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+                                    </noscript>
+                                    <p id="captchaStatus">&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li >
+                        <div class='field_block'>
+                            <div class="vf__required">
+                                <div class="fielddesc_block">
+                                    <fieldset class="vf__list">
+                                        <label id="label_51da921b4f84f">
+                                            <input type="checkbox" name="element_51da921b4f84f[]" value="I agree that by using this form I am not spamming the Edge Radio social networks with unauthorised content. I&#39;m a good presenter." id="element_51da921b4f84f[]" data-label="" /> I agree that by using this form I am not spamming the Edge Radio social networks with unauthorised content. I'm a good presenter.</label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li >
+                        <div class="fieldcontrol_block">
+                            <div class="vf__navigation">
+                                <input type="hidden" name="vf__dispatch" value="htmlform" />
+                                <input type="hidden" name="disableresizing" value="0" />
+                                <input type="submit" name="element_4e6898e6e9215" value="Send" class="vf__button"  />
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div id="poweredhtmlformcom" class="powered">
+                <span >Powered by <a class="pwdlink" href="http://htmlform.com" onclick="this.target='_blank'">HTMLform.com</a>
+            </span>
+        </div>
+    </fieldset>
+</form>
+<div  class="validating_space" id="validating_space" style="width: 100%;">
+</div>
+<script type="text/javascript">
+    // <![CDATA[
+    function resizeParentIframe() {
+        var w_fieldset = parseInt($(".main_fieldset").css('width'));
+        var w_client = document.body.clientWidth;
+        var w_resize = Math.max(w_fieldset,w_client);
+        try{
+            $("body").css('width',w_resize);
+            $("#htmlform").css('width',w_resize);  
+            parent.document.getElementById('myiframe_idfea4a5_e3a').style.height = (document.body.clientHeight+2)+'px';
+            parent.document.getElementById('myiframe_idfea4a5_e3a').style.width = (w_resize+2)+'px';
+        }
+        catch(error) {}
+    }
+    // ]]></script>
+<script type="text/javascript" src="../resources/libraries/jquery.qtip-1.0.min.js"></script>
+</body>
+</html>

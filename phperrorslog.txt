@@ -1,0 +1,1 @@
+[01-Oct-2013 18:43:56 Antarctica/Macquarie] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/edge/public_html/program.php:8) in /home/edge/public_html/inc/common_start.php on line 3

@@ -1,0 +1,6 @@
+CREATE TABLE `users` (
+  `ID` mediumint(9) NOT NULL auto_increment,
+  `username` varchar(60) default NULL,
+  `password` varchar(60) default NULL,
+  PRIMARY KEY  (`ID`)
+)

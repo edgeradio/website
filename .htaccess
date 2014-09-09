@@ -1,0 +1,22 @@
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule .* - [L]
+
+RewriteEngine on
+
+RewriteRule ^program/([^/.]+)$ program.php?id=$1
+RewriteRule ^program/([^/.]+)/$ program.php?id=$1
+
+RewriteRule ^program/([^/.]+)/blog/$ program.php?id=$1&type=blogs
+RewriteRule ^program/([^/.]+)/blog$ program.php?id=$1type=blogs
+RewriteRule ^program/([^/.]+)/blog/page-([^/.]+)/$ program.php?id=$1&type=blogs&p=$2
+RewriteRule ^program/([^/.]+)/blog/page-([^/.]+)$ program.php?id=$1&type=blogs&p=$2
+
+RewriteRule ^program/([^/.]+)/playlists/$ program.php?id=$1&type=playlists
+RewriteRule ^program/([^/.]+)/playlists$ program.php?id=$1type=playlists
+
+RewriteRule ^program/([^/.]+)/restream/$ program.php?id=$1&type=restream
+RewriteRule ^program/([^/.]+)/restream$ program.php?id=$1type=restream
+
+RewriteRule ^program/([^/.]+)/comments/$ program.php?id=$1&type=comments
+RewriteRule ^program/([^/.]+)/comments$ program.php?id=$1type=comments
+
